@@ -6,17 +6,35 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 18:02:01 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Sep 2018 20:23:41 +0800</lastBuildDate>
     
 	<atom:link href="https://github.com/xueyuyao/xueyuyao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://github.com/xueyuyao/xueyuyao.github.io/about/</link>
+      <pubDate>Tue, 18 Sep 2018 20:23:41 +0800</pubDate>
+      
+      <guid>https://github.com/xueyuyao/xueyuyao.github.io/about/</guid>
+      <description>大家好，我是薛玉瑶</description>
+    </item>
+    
+    <item>
+      <title>My First Blog</title>
+      <link>https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/</link>
+      <pubDate>Tue, 18 Sep 2018 20:23:41 +0800</pubDate>
+      
+      <guid>https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/</guid>
+      <description>大家好，欢迎大家来到的我的博客</description>
+    </item>
+    
+    <item>
       <title>调试的重要性</title>
-      <link>https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/</link>
+      <link>https://github.com/xueyuyao/xueyuyao.github.io/post/debuging_first/</link>
       <pubDate>Wed, 23 May 2018 18:02:01 +0800</pubDate>
       
-      <guid>https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/</guid>
+      <guid>https://github.com/xueyuyao/xueyuyao.github.io/post/debuging_first/</guid>
       <description>调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
 不要浮于表面 1.不要只看厚度
 几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。 &amp;gt;把书写厚了容易，把书写薄了难

@@ -8,57 +8,25 @@
 <meta name="generator" content="Hugo 0.48 with theme Tranquilpeak 0.4.3-SNAPSHOT">
 <meta name="author" content="">
 <meta name="keywords" content="">
-<meta name="description" content="调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
-不要浮于表面 1.不要只看厚度
-几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。 &gt;把书写厚了容易，把书写薄了难
-曾经以为只有厚的书，知识含量高；往往浓缩的才是精华，以后说话做事力求简洁明了。
-2.越简单的规则往往越被人忽略
-有些规则显而易见，会记得运用在特定的问题上，越往往不容易；有时候会被人忽视，有时候会走所谓的捷径，最终所花的时间越久，所以要记住并运用好这些规则。
-3.调试不仅仅是故障检修
- 调试不仅仅是故障检修，故障检修通常是已知设计没有问题的情况下，有硬件出现问题。调试通常是查明一个设计为什么没有按计划工作。
- 作者通过 20 多年工作经验总结出来的调试九法，并不是一开始就写了 9 种；而是工作积累总结了无数条，被压缩成了 9 条。">
+<meta name="description" content="大家好，欢迎大家来到的我的博客">
 
 
-<meta property="og:description" content="调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
-不要浮于表面 1.不要只看厚度
-几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。 &gt;把书写厚了容易，把书写薄了难
-曾经以为只有厚的书，知识含量高；往往浓缩的才是精华，以后说话做事力求简洁明了。
-2.越简单的规则往往越被人忽略
-有些规则显而易见，会记得运用在特定的问题上，越往往不容易；有时候会被人忽视，有时候会走所谓的捷径，最终所花的时间越久，所以要记住并运用好这些规则。
-3.调试不仅仅是故障检修
- 调试不仅仅是故障检修，故障检修通常是已知设计没有问题的情况下，有硬件出现问题。调试通常是查明一个设计为什么没有按计划工作。
- 作者通过 20 多年工作经验总结出来的调试九法，并不是一开始就写了 9 种；而是工作积累总结了无数条，被压缩成了 9 条。">
+<meta property="og:description" content="大家好，欢迎大家来到的我的博客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="调试的重要性">
-<meta name="twitter:title" content="调试的重要性">
-<meta property="og:url" content="https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/">
-<meta property="twitter:url" content="https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/">
+<meta property="og:title" content="My First Blog">
+<meta name="twitter:title" content="My First Blog">
+<meta property="og:url" content="https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/">
+<meta property="twitter:url" content="https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/">
 <meta property="og:site_name" content="My New Hugo Site">
-<meta property="og:description" content="调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
-不要浮于表面 1.不要只看厚度
-几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。 &gt;把书写厚了容易，把书写薄了难
-曾经以为只有厚的书，知识含量高；往往浓缩的才是精华，以后说话做事力求简洁明了。
-2.越简单的规则往往越被人忽略
-有些规则显而易见，会记得运用在特定的问题上，越往往不容易；有时候会被人忽视，有时候会走所谓的捷径，最终所花的时间越久，所以要记住并运用好这些规则。
-3.调试不仅仅是故障检修
- 调试不仅仅是故障检修，故障检修通常是已知设计没有问题的情况下，有硬件出现问题。调试通常是查明一个设计为什么没有按计划工作。
- 作者通过 20 多年工作经验总结出来的调试九法，并不是一开始就写了 9 种；而是工作积累总结了无数条，被压缩成了 9 条。">
-<meta name="twitter:description" content="调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
-不要浮于表面 1.不要只看厚度
-几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。 &gt;把书写厚了容易，把书写薄了难
-曾经以为只有厚的书，知识含量高；往往浓缩的才是精华，以后说话做事力求简洁明了。
-2.越简单的规则往往越被人忽略
-有些规则显而易见，会记得运用在特定的问题上，越往往不容易；有时候会被人忽视，有时候会走所谓的捷径，最终所花的时间越久，所以要记住并运用好这些规则。
-3.调试不仅仅是故障检修
- 调试不仅仅是故障检修，故障检修通常是已知设计没有问题的情况下，有硬件出现问题。调试通常是查明一个设计为什么没有按计划工作。
- 作者通过 20 多年工作经验总结出来的调试九法，并不是一开始就写了 9 种；而是工作积累总结了无数条，被压缩成了 9 条。">
+<meta property="og:description" content="大家好，欢迎大家来到的我的博客">
+<meta name="twitter:description" content="大家好，欢迎大家来到的我的博客">
 <meta property="og:locale" content="en">
 
   
-    <meta property="article:published_time" content="2018-05-23T18:02:01">
+    <meta property="article:published_time" content="2018-09-18T20:23:41">
   
   
-    <meta property="article:modified_time" content="2018-05-23T18:02:01">
+    <meta property="article:modified_time" content="2018-09-18T20:23:41">
   
   
   
@@ -78,14 +46,14 @@
 
 
 
-    <title>调试的重要性</title>
+    <title>My First Blog</title>
 
     <link rel="icon" href="/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/">
+    <link rel="canonical" href="https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -143,15 +111,15 @@
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      调试的重要性
+      My First Blog
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2018-05-23T18:02:01&#43;08:00">
+      <time itemprop="datePublished" datetime="2018-09-18T20:23:41&#43;08:00">
         
-   23, 2018
+   18, 2018
 
       </time>
     
@@ -162,32 +130,7 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              
-
-<h1 id="调试的重要性">调试的重要性</h1>
-
-<p>掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。</p>
-
-<h2 id="不要浮于表面">不要浮于表面</h2>
-
-<p>1.不要只看厚度</p>
-
-<p>几句话能把问题讲清楚容易，一句话把问题讲清楚难，更何况有时候几句话还讲不清楚，有时候写书跟说话一样。
-&gt;把书写厚了容易，把书写薄了难</p>
-
-<p>曾经以为只有厚的书，知识含量高；往往浓缩的才是精华，以后说话做事力求简洁明了。</p>
-
-<p>2.越简单的规则往往越被人忽略</p>
-
-<p>有些规则显而易见，会记得运用在特定的问题上，越往往不容易；有时候会被人忽视，有时候会走所谓的捷径，最终所花的时间越久，所以要记住并运用好这些规则。</p>
-
-<p>3.调试不仅仅是故障检修</p>
-
-<blockquote>
-<p>调试不仅仅是故障检修，故障检修通常是已知设计没有问题的情况下，有硬件出现问题。调试通常是查明一个设计为什么没有按计划工作。</p>
-</blockquote>
-
-<p>作者通过 20 多年工作经验总结出来的调试九法，并不是一开始就写了 9 种；而是工作积累总结了无数条，被压缩成了 9 条。</p>
+              <p>大家好，欢迎大家来到的我的博客</p>
 
               
             </div>
@@ -211,7 +154,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="/xueyuyao/xueyuyao.github.io/post/debuging_first/" data-tooltip="调试的重要性">
               
                   <span class="hide-xs hide-sm text-small icon-mr"></span>
                   <i class="fa fa-angle-right"></i>
@@ -269,7 +212,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="/xueyuyao/xueyuyao.github.io/post/debuging_first/" data-tooltip="调试的重要性">
               
                   <span class="hide-xs hide-sm text-small icon-mr"></span>
                   <i class="fa fa-angle-right"></i>
@@ -344,7 +287,24 @@
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/">
+              <a class="link-unstyled" href="https://github.com/xueyuyao/xueyuyao.github.io/post/my-first-blog/">
+                <h3 class="media-heading">My First Blog</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">大家好，欢迎大家来到的我的博客</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://github.com/xueyuyao/xueyuyao.github.io/post/debuging_first/">
                 <h3 class="media-heading">调试的重要性</h3>
               </a>
               <span class="media-meta">
@@ -373,7 +333,7 @@
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         1 posts found
+         2 posts found
       </p>
     </div>
   </div>
