@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://github.com/xueyuyao/xueyuyao.github.io/post/2018-05-23-debuging_first/</loc>
+    <lastmod>2018-05-23T18:02:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://github.com/xueyuyao/xueyuyao.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://github.com/xueyuyao/xueyuyao.github.io/</loc>
+    <lastmod>2018-05-23T18:02:01+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/xueyuyao/xueyuyao.github.io/post/</loc>
+    <lastmod>2018-05-23T18:02:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
