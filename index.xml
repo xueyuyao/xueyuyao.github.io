@@ -6,19 +6,11 @@
     <description>Recent content on 薛玉瑶的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Sep 2018 22:35:26 +0800</lastBuildDate>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Thu, 20 Sep 2018 22:35:26 +0800</lastBuildDate>
     
 	<atom:link href="https://xueyuyao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Blog</title>
-      <link>https://xueyuyao.github.io/blog/my-first-blog/</link>
-      <pubDate>Sat, 22 Sep 2018 22:35:26 +0800</pubDate>
-      
-      <guid>https://xueyuyao.github.io/blog/my-first-blog/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>C# 中的访问修饰符和声明修饰符</title>
@@ -43,15 +35,6 @@ Virtual 用于修饰方法、属性、索引器或事件声明，并且允许在
 Override 提供从基类继承的成员的新实现。
 New 作为修饰符，在基类面前隐藏了派生类重新声明的成员，在不使用 new 修饰符的情况下隐藏成员是允许的，但会生成警告。作为运算符，用于创建对象和调用构造函数。
 Extern 用于声明在外部实现的方法。 extern 修饰符的常见用法是在使用 Interop 服务调入非托管代码时与 DllImport 特性一起使用。 在这种情况下，还必须将方法声明为 static。</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://xueyuyao.github.io/about/</link>
-      <pubDate>Tue, 18 Sep 2018 20:23:41 +0800</pubDate>
-      
-      <guid>https://xueyuyao.github.io/about/</guid>
-      <description>大家好，我是薛玉瑶</description>
     </item>
     
     <item>
