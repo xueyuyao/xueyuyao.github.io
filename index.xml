@@ -6,15 +6,24 @@
     <description>Recent content on 薛玉瑶的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Sep 2018 18:02:01 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 22:35:26 +0800</lastBuildDate>
     
 	<atom:link href="https://xueyuyao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>My First Blog</title>
+      <link>https://xueyuyao.github.io/blog/my-first-blog/</link>
+      <pubDate>Sat, 22 Sep 2018 22:35:26 +0800</pubDate>
+      
+      <guid>https://xueyuyao.github.io/blog/my-first-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C# 中的访问修饰符和声明修饰符</title>
       <link>https://xueyuyao.github.io/post/2018-09-20-class_modifier/</link>
-      <pubDate>Thu, 20 Sep 2018 18:02:01 +0800</pubDate>
+      <pubDate>Thu, 20 Sep 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-09-20-class_modifier/</guid>
       <description>前言 C# 中的访问修饰符和声明修饰符挺多的，总结一下，做个记录。
@@ -48,7 +57,7 @@ Extern 用于声明在外部实现的方法。 extern 修饰符的常见用法�
     <item>
       <title>浅谈协程</title>
       <link>https://xueyuyao.github.io/post/2018-09-09-coroutine/</link>
-      <pubDate>Sun, 09 Sep 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 09 Sep 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-09-09-coroutine/</guid>
       <description>前言 在 Unity 中，对协程的使用度非常高；面试的时候，也多数会被问到。自己都没有系统的整理下协程相关的知识。借此机会，梳理下自己对协程理解，以便更好的理解协程。
@@ -62,7 +71,7 @@ public class Test : MonoBehaviour { void Start () { Debug.</description>
     <item>
       <title>工作自我反省</title>
       <link>https://xueyuyao.github.io/post/2018-08-12-selfreflectionatwork/</link>
-      <pubDate>Sun, 12 Aug 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 12 Aug 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-08-12-selfreflectionatwork/</guid>
       <description>前言 前段时间看了一本有关程序员的职业素养的书《代码整洁之道 程序员的职业素养》。在这本书里，作者重新定义了专业程序员，要想成为真正专业的程序员，需要什么样的态度、原则、行动；这些态度、原则、行动都源于作者一路走来的亲身体会。可以把这本书当成一份指引，靠它绕开一些弯路，提高自己的职业素养。
@@ -79,7 +88,7 @@ ps：（项目规定 merge 操作是单方向的，即：在 master 分支 merge
     <item>
       <title>有关于 .prefab 与自身挂载组件的关系</title>
       <link>https://xueyuyao.github.io/post/2018-08-05-aboutprefab/</link>
-      <pubDate>Sun, 05 Aug 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 05 Aug 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-08-05-aboutprefab/</guid>
       <description>问题 在 UI Panel 添加了一个粒子特效，打开该 Panel 时，特效不显示，选中特效时，特效又会显示出来。
@@ -92,7 +101,7 @@ Canvas 的 Render Mode 设置不同，对于 RectTransform 组件上的值是有
     <item>
       <title>提问的智慧-阅读笔记</title>
       <link>https://xueyuyao.github.io/post/2018-07-30-how-to-ask-questions-the-smart-way-note/</link>
-      <pubDate>Mon, 30 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Mon, 30 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-30-how-to-ask-questions-the-smart-way-note/</guid>
       <description>前言 向其他人提问问题是很常见的事情，尤其从事计算机方面的工作，所以拥有提问的智慧尤为重要。提问的智慧这篇文章里面的提问环境是在技术论坛上或者邮件的形式。看完这篇文章之后，结合着自身的情况，写一些总结。
@@ -111,7 +120,7 @@ Canvas 的 Render Mode 设置不同，对于 RectTransform 组件上的值是有
     <item>
       <title>有关 git rebase 错误使用引发的问题</title>
       <link>https://xueyuyao.github.io/post/2018-07-29-incorrectuseofgitrebase/</link>
-      <pubDate>Sun, 29 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 29 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-29-incorrectuseofgitrebase/</guid>
       <description>前言 本文是前几天我在工作中使用 git 指令合并分支的时候出现了问题，而当时采取了直接 “跳过问题” 的解决方案，导致了文件显示不出来了。所以写一份报告总结记录下。
@@ -128,7 +137,7 @@ rebase 会将合并提交变为普通提交，丢失父节点信息。  使用 �
     <item>
       <title>《游戏编程算法与技巧》读书笔记一</title>
       <link>https://xueyuyao.github.io/post/2018-07-25-gameprogrammingnote/</link>
-      <pubDate>Wed, 25 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Wed, 25 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-25-gameprogrammingnote/</guid>
       <description>前言 前段时间阅读了一本有关游戏编程的书《游戏编程算法与技巧》，书中介绍了大量今天在游戏行业中用到的算法与技术。包括 2D 和 3D 图形学、物理、人工智能、摄像机等多个方面的技术。
@@ -138,7 +147,7 @@ rebase 会将合并提交变为普通提交，丢失父节点信息。  使用 �
     <item>
       <title>SuperTextMesh MemoryUninstall Bug</title>
       <link>https://xueyuyao.github.io/post/2018-07-15-supertextmeshmemoryuninstall/</link>
-      <pubDate>Sun, 15 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 15 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-15-supertextmeshmemoryuninstall/</guid>
       <description>前言 前一段时间将 SuperTextMesh 导入到项目中，实现图文混排。最近使用 SuperTextMesh 来实现炫酷的文字特效。在使用过程中，发现了 SuperTextMesh 内存卸载的 Bug。从查找问题到解决断断续续花了有一周的时间，现在问题解决了，写一个总结记录下。
@@ -160,7 +169,7 @@ Visual Studio：2017
     <item>
       <title>Unity Compilation Bug</title>
       <link>https://xueyuyao.github.io/post/2018-07-08-unitycompilationbug/</link>
-      <pubDate>Sun, 08 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 08 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-08-unitycompilationbug/</guid>
       <description>前言 前几天在工作中，遇到一个有关 Unity 编译失效的问题，我修改的脚本保存后，Unity 自动编译后，编译失效。
@@ -177,7 +186,7 @@ Visual Studio：2017
     <item>
       <title>First Publish FlapyBird</title>
       <link>https://xueyuyao.github.io/post/2018-07-01-firstpublicflappybird/</link>
-      <pubDate>Sun, 01 Jul 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 01 Jul 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-07-01-firstpublicflappybird/</guid>
       <description>前言 这是我在 GitHub 上发布的第一个游戏作品。确切地说，不能算是一个作品，只能是一个小 Demo。项目中所实现的功能效果，离原版差太多。这也让我明白，要做出好的东西，是需要花费很多精力去做的。
@@ -202,7 +211,7 @@ Visual Studio：2017
     <item>
       <title>Unity API 之 Canvas 与 Camera</title>
       <link>https://xueyuyao.github.io/post/2018-06-24-canvasandcamera/</link>
-      <pubDate>Sun, 24 Jun 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 24 Jun 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-06-24-canvasandcamera/</guid>
       <description>前言 最近在做一个 2D 游戏，项目做的差不多了，整理一下自己在制作过程中用到的知识点，这篇写 Canvas 与 Camera 的使用。
@@ -224,7 +233,7 @@ Canvas Scaler
     <item>
       <title>Unity Sprite 与 Image 有什么区别？</title>
       <link>https://xueyuyao.github.io/post/2018-06-19-spriteandimage/</link>
-      <pubDate>Tue, 19 Jun 2018 18:02:01 +0800</pubDate>
+      <pubDate>Tue, 19 Jun 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-06-19-spriteandimage/</guid>
       <description>前言 最近在做一个 2D 游戏，用到了 Sprite 与 Image。UI 界面使用 Image ,游戏场景相关制作使用 Sprite。后来跟小伙伴交流的时候，提到了这一点，说到具体原理，我记得是渲染方式不同，Image 的渲染方式是 Canvas Renderer；Sprite 的渲染方式是 Sprite Renderer，至于具体为什么要使用，一知半解。
@@ -237,7 +246,7 @@ Canvas Scaler
     <item>
       <title>Unity 文件夹编译顺序</title>
       <link>https://xueyuyao.github.io/post/2018-06-14-unitycompilation/</link>
-      <pubDate>Thu, 14 Jun 2018 18:02:01 +0800</pubDate>
+      <pubDate>Thu, 14 Jun 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-06-14-unitycompilation/</guid>
       <description>Unity 特殊文件夹编辑顺序 前一段时间做图文混排导入了一个插件 Super Text Mesh，把文件夹直接导入到项目根目录下 Assets 文件夹里面，忘记放到 Plugins 文件夹下。之后再转移文件目录的时候，会报一个外部类不存在之类的错误，查了半个小时无果，同事提示我查 Unity 的编译顺序，看完 Unity 相关的官方文档之后恍然大悟，原来跟 Unity 的特殊文件夹的编译顺序有关。
@@ -272,7 +281,7 @@ Unity 版本：2017.</description>
     <item>
       <title>FlappyBird 制作进度</title>
       <link>https://xueyuyao.github.io/post/2018-06-09-flappybird/</link>
-      <pubDate>Sat, 09 Jun 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sat, 09 Jun 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-06-09-flappybird/</guid>
       <description>FlappyBird 制作进度： 1.创建 GitHub 仓库；
@@ -307,7 +316,7 @@ FlappyBird 制作进度 6月11号 1.简易 UIManager
     <item>
       <title>正则表达式必知必会读书笔记</title>
       <link>https://xueyuyao.github.io/post/2018-06-03-regexnote/</link>
-      <pubDate>Sun, 03 Jun 2018 18:02:01 +0800</pubDate>
+      <pubDate>Sun, 03 Jun 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-06-03-regexnote/</guid>
       <description>简介 正则表达式是一些用来匹配和处理文本的字符串。正则表达式是用正则表达式语言创建的，没有能够直接安装并运行的程序，是内置与其他语言或软件产品里的迷你语言。几乎所有的语言或工具都支持正则表达式。语法是正则表达式最容易掌握的部分，真正的挑战市学会如何运用那些语法把实际问题分解为一系列正则表达式并最终解决，所以必需通过实践才能真正掌握他们。
@@ -332,7 +341,7 @@ note：配对的元字符 比如 [ 或 ] 不用作元字符时必须转义，否
     <item>
       <title>GitHub 自定义域名</title>
       <link>https://xueyuyao.github.io/post/2018-05-29-githubcustomdomain/</link>
-      <pubDate>Tue, 29 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Tue, 29 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-29-githubcustomdomain/</guid>
       <description> GitHub 网站建起来有一周了，GitHub 支持自定义域名，于是就想着买个自己域名作为网站门面
@@ -354,7 +363,7 @@ dig docs.example.com +nostats +nocomments +nocmd  </description>
     <item>
       <title>调试九法</title>
       <link>https://xueyuyao.github.io/post/2018-05-27-debuging/</link>
-      <pubDate>Mon, 28 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Mon, 28 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-27-debuging/</guid>
       <description>Debuging 调试在编程工作中很常见，几乎每天都会很它打交道。可以说对于编程人员来说是一件很困扰的事情，有时候查找一个 Bug 原因，需要花费大量的时间和精力。
@@ -392,7 +401,7 @@ dig docs.example.com +nostats +nocomments +nocmd  </description>
     <item>
       <title>图文混排总结</title>
       <link>https://xueyuyao.github.io/post/2018-05-23-supertextmesh/</link>
-      <pubDate>Wed, 23 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Wed, 23 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-23-supertextmesh/</guid>
       <description>图文混排总结 最近在做图文混排相关的功能，先后使用了几种方式实现；有的本身有问题，有的不适用与我们的项目， 总结一下以后略过这些坑。
@@ -416,7 +425,7 @@ unityAssetStore 下载链接 Super Text Mesh</description>
     <item>
       <title>学习之路</title>
       <link>https://xueyuyao.github.io/post/2018-05-23-learnroads/</link>
-      <pubDate>Wed, 23 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Wed, 23 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-23-learnroads/</guid>
       <description>学习之路 讲述了作者自己编程经历，以及写这本书的过程。写一个成功的模式需要历经许多从业者的使用、反馈、不断的修改验证，才能越来越完善。我们目前使用的编程语言、编程模式、以及读到的技术书籍，都是作者反复推敲验证过之后的成果，我们确实是站在许多人的肩膀上。在本书的一开始，作者讲述了在编程道路上，总结了大概学徒期、熟练工、师傅这三种阶段，这三个阶段不能按传统行业那么单纯的定义。处在师傅阶段的时候，在学习新的语言时，也需要经历学徒期、熟练工等等。
@@ -445,7 +454,7 @@ unityAssetStore 下载链接 Super Text Mesh</description>
     <item>
       <title>学习计划</title>
       <link>https://xueyuyao.github.io/post/2018-05-23-learningplan/</link>
-      <pubDate>Wed, 23 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Wed, 23 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-23-learningplan/</guid>
       <description>学习计划 自己之前看过一些关于学会一门语言，或者学会一个具体开发软件的流程图，其实多数时候效率都不是很高。看完那本《软件开发这路线图》，里面总结了许多不同学习状态下的学习模式。看的过程中，回想了之前那些年工作学习的时候，有点误入歧途的感觉，也不是说不努力，是方法没有用对，再加上懒惰，所以从现在开始回归正途。
@@ -469,7 +478,7 @@ Java 语言也是接 SDK 的时候，有所接触；</description>
     <item>
       <title>调试的重要性</title>
       <link>https://xueyuyao.github.io/post/2018-05-23-debuging_first/</link>
-      <pubDate>Wed, 23 May 2018 18:02:01 +0800</pubDate>
+      <pubDate>Wed, 23 May 2018 22:35:26 +0800</pubDate>
       
       <guid>https://xueyuyao.github.io/post/2018-05-23-debuging_first/</guid>
       <description>调试的重要性 掌握调试的技巧与方法，会让调试工作事半功倍，从而节省更多的时间来做其他的事情。个人觉得调试在学习工作中很重要的地位， 把 Debuging 的读书笔记作为我网站的第一篇博客，原因后面会说到。
